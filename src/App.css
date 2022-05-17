@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid snow;
+  background-color: snow;
+  margin: 15px;
+  padding: 20px;
+}
+h1{
+  background-color: thistle ;
+  border: 1px solid darkcyan;
+  box-shadow: 7px 7px 7px  darkcyan;
+  
+}
+input {
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 2px solid rgb(167, 121, 121);
+  background-color: snow;
+  margin: 15px;
+  padding: 20px;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  box-shadow: 20px seagreen;
+  box-shadow: 7px 7px 7px  black;
+  
+}
+.hidden {
+  display: hidden;
+  visibility:hidden;
+}
+body {
+  background-color: blueviolet;
+}
+form{
+  box-shadow: 200px salmon;
+  
+  
+}
+button {
+  padding: 20px 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 3px solid thistle;
+  background-color: blueviolet;
+  border-radius: 25px;
+  font-size: 1.7rem;
+  box-shadow: 2px 2px 1px 1px white;
+}
+label {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
